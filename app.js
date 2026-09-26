@@ -49,6 +49,44 @@ navigator.geolocation.getCurrentPosition((position)=>{
     console.log(position.coords.longitude);
 });
 
+//call back hell method
+
+setTimeout(() => {
+    console.log("nagitinawa");
+    setTimeout(() => {
+        console.log("muna sodanawa");
+        setTimeout(() => {
+            console.log("badu list eka hadanawa");
+            setTimeout(() => {
+                console.log("ADUM ADINAWA");
+                setTimeout(() => {
+                    console.log("KADETA YANAWA");
+                    setTimeout(() => {
+                        console.log("YALUWAT EKKA KATA KARANAWA ");
+                        setTimeout(() => {
+                            console.log("KADETA AWA");
+                            setTimeout(() => {
+                                console.log("polime innewa");
+                                setTimeout(() => {
+                                    console.log("bill karanawa");
+                                    setTimeout(() => {
+                                        console.log("gedr enawa");
+                                        setTimeout(() => {
+                                            console.log("ammata badu tika denawa");
+                                            setTimeout(() => {
+                                                console.log("end.....");
+                                            }, 2000);
+                                        }, 5000);
+                                    }, 10000);
+                                }, 5000);
+                            }, 9000);
+                        }, 5000);
+                    }, 6000);
+                }, 50000);
+            }, 7500);
+        }, 8000);
+    }, 10000);
+}, 5000);
 // console.log();
 
 
