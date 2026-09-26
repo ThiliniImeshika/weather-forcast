@@ -42,3 +42,13 @@ function btnSearchOnAction(){
 }
 )
 }
+
+navigator.geolocation.getCurrentPosition((position)=>{
+    console.log(position);
+    console.log(position.coords.latitude);
+    console.log(position.coords.longitude);
+});
+
+// console.log();
+
+
